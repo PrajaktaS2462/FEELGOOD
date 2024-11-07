@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-image: linear-gradient(to right, #7bdff2, #b2f7ef, #f7d6e0, #f2b5d4);
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    height: 60px;
+    width: 110px;
+    padding-top: 5px;
+    padding-left: 16px;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: 90px;
+    justify-content: center;
+    background-image: url("Artboard 1.png");
+    background-size: cover;
+    border: 2px solid #de5f9e;
+    border-radius: 5px;
+}
+
+.navbar-logo:hover {
+    border: 3px solid #f7459e;
+    cursor: pointer;
+}
+
+.space {
+    height: 50px;
+    width: 150px;
+}
+
+.nav-address {
+    height: 40px;
+    width: 300px;
+    background-color: #96e5f5;
+    display:flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    color: white;
+}
+
+.nav-address:hover {
+    cursor: pointer;
+}
+
+.msg-container {
+    height: 20px;
+    color:rgb(30, 123, 199);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-left: 20px;
+}
+
+#msg, #new-btn {
+    position: relative;
+    top: 10px;
+}
+
+#new-btn {
+    font-size: 1rem;
+    color:rgb(30, 123, 199);
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color:rgb(14, 99, 145);
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.container {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color: aliceblue;
+    box-shadow: 0 0 1rem rgba(0, 0 , 0, 0.3);
+    font-size: 6vmin;
+    color:rgb(8, 96, 159);
+}
+
+#reset-btn {
+    padding: 1rem;
+    margin-top: 15px;
+    font-size: 1rem;
+    color:rgb(30, 123, 199);
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    left: 46.5%;
+}
+
+.footer {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-image: linear-gradient(to right, #7bdff2, #b2f7ef, #f7d6e0, #f2b5d4);
+    color: #ffffff;
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer-search {
+    height: 40px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color:#f7459e;
+}

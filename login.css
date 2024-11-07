@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-image: linear-gradient(to right, #7bdff2, #b2f7ef, #f7d6e0, #f2b5d4);
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    height: 60px;
+    width: 110px;
+    padding-top: 5px;
+    padding-left: 16px;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: 90px;
+    justify-content: center;
+    background-image: url("Artboard 1.png");
+    background-size: cover;
+    border: 2px solid #de5f9e;
+    border-radius: 5px;
+}
+
+.navbar-logo:hover {
+    border: 3px solid #f7459e;
+    cursor: pointer;
+}
+
+.space {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-address {
+    height: 40px;
+    width: 500px;
+    background-color: #96e5f5;
+    display:flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    color: white;
+}
+
+.nav-address:hover {
+    cursor: pointer;
+}
+
+.main {
+    height: 29rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("loginBG.png");
+    background-size: cover;
+}
+
+.login-box {
+    height: 300px;
+    width: 500px;
+    border: 2px solid gray;
+    border-radius: 2rem;
+    background-color: aliceblue;
+}
+
+.login-box-itmes {
+    margin: 10px;
+    color:rgb(1, 111, 111);
+    padding: 20px;
+}
+
+.footer {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-image: linear-gradient(to right, #7bdff2, #b2f7ef, #f7d6e0, #f2b5d4);
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.footer-search {
+    height: 40px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color:#f7459e;
+}

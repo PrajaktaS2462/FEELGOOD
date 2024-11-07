@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-image: linear-gradient(to right, #7bdff2, #b2f7ef, #f7d6e0, #f2b5d4);
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    height: 60px;
+    width: 110px;
+    padding-top: 5px;
+    padding-left: 16px;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: 90px;
+    justify-content: center;
+    background-image: url("Artboard 1.png");
+    background-size: cover;
+    border: 2px solid #de5f9e;
+    border-radius: 5px;
+}
+
+.navbar-logo:hover {
+    border: 3px solid #f7459e;
+    cursor: pointer;
+}
+
+.space {
+    height: 50px;
+    width: 150px;
+}
+
+.nav-address {
+    height: 40px;
+    width: 300px;
+    background-color: #96e5f5;
+    display:flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    color: white;
+}
+
+.nav-address:hover {
+    cursor: pointer;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color:rgb(14, 99, 145);
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.choices {
+    margin-top: 40px;
+    height: 165px;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+img {
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choice:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color:rgba(0, 0 , 0, 0.3);
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    gap: 1rem;
+    color:rgb(14, 99, 145);
+    background-color: aliceblue;
+}
+
+#user-score, #comp-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.msg-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#msg {
+    background-color: rgb(58, 144, 220);
+    color: #ffffff;
+    font-size: 20px;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+
+.footer {
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-image: linear-gradient(to right, #7bdff2, #b2f7ef, #f7d6e0, #f2b5d4);
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer-search {
+    height: 40px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color:#f7459e;
+}
